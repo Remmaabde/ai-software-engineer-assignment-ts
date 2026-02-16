@@ -1,4 +1,4 @@
-# ai-software-engineer-assignment-ts
+
 # AI Software Engineer Assignment (JS/TS)
 
 This repository contains my solution to the AI Software Engineer Assignment.  
