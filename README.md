@@ -27,5 +27,3 @@ Build the Docker image:
 Run the test suite inside the container:
 
    docker run --rm ai-assignment
-
-The container installs dependencies using `npm install` and runs the tests by default.
