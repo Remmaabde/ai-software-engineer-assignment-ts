@@ -18,12 +18,11 @@ export class HttpClient {
 
     if (api) {
       // BUG: truthiness + instanceof check misses the "plain object" token case.
-      if (
-        !this.oauth2Token ||
-        (this.oauth2Token instanceof OAuth2Token && this.oauth2Token.expired)
-      ) {
+    if(
+      !(this.oauth2Token instanceof OAuth2Token) || this.oauth2Token.expired){
         this.refreshOAuth2();
-      }
+      } 
+    
 
       if (this.oauth2Token instanceof OAuth2Token) {
         headers["Authorization"] = this.oauth2Token.asHeader();

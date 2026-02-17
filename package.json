@@ -1,0 +1,16 @@
+{
+  "name": "ai-software-engineer-assignment-ts",
+  "version": "1.0.0",
+  "description": "AI Software Engineering Assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitest": "latest",
+    "typescript": "5.2.2"
+  }
+}
